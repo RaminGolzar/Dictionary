@@ -1,0 +1,14 @@
+CRITICAL - 05:49 --> Call to a member function get() on null
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(51): App\Libraries\Elements\Elements->ul(Array, 'center', '#700', '#fa0')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 05:49 --> Call to a member function get() on null
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(51): App\Libraries\Elements\Elements->ul(Array, 'center', '#700', '#fa0')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

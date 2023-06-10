@@ -1,0 +1,25 @@
+CRITICAL - 09:32 --> Call to undefined method App\Libraries\Elements\Handlers\Tags::parse_attr_attr()
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Elements.php(134): App\Libraries\Elements\Handlers\Tags->mark('Hello how are y...', Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(56): App\Libraries\Elements\Elements->highlight('Hello how are y...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 09:32 --> Call to undefined method App\Libraries\Elements\Handlers\Tags::parse_attr_attr()
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Elements.php(134): App\Libraries\Elements\Handlers\Tags->mark('Hello how are y...', Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(56): App\Libraries\Elements\Elements->highlight('Hello how are y...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 10:40 --> Argument 2 passed to App\Libraries\Elements\Handlers\Tags::h() must be of the type string, array given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Elements.php on line 169
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Elements.php(169): App\Libraries\Elements\Handlers\Tags->h('Hello how are y...', Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Elements.php(143): App\Libraries\Elements\Elements->note_title('Hello how are y...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(57): App\Libraries\Elements\Elements->note('Hello how are y...', ' Lorem ipsum do...', '#ff0', 'black')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,112 @@
+ERROR - 2022-07-13 04:09:15 --> [ *** This error send by Mr. eraj *** ]
+ERROR - 2022-07-13 04:13:46 --> Hello CI
+CRITICAL - 2022-07-13 04:56:10 -->  is an invalid log level.
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Log\Logger.php(309): CodeIgniter\Log\Exceptions\LogException::forInvalidLogLevel('')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Common.php(829): CodeIgniter\Log\Logger->log('', 'Hello CI', Array)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(25): log_message('', 'Hello CI')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ALERT - 2022-07-13 04:58:58 --> Hello CI
+ERROR - 2022-07-13 05:00:55 --> Hello CI
+ERROR - 2022-07-13 05:00:55 --> Hello CI
+CRITICAL - 2022-07-13 05:01:55 --> error  is an invalid log level.
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Log\Logger.php(309): CodeIgniter\Log\Exceptions\LogException::forInvalidLogLevel('error ')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Common.php(829): CodeIgniter\Log\Logger->log('error ', 'Hello Eraj', Array)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(25): log_message('error ', 'Hello Eraj')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-13 05:02:30 --> Hello Eraj
+CRITICAL - 2022-07-13 05:11:32 --> Undefined variable: post_vars
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\SoftWare\\xam...', 25, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-13 05:12:00 --> $_POST: Array
+(
+)
+
+ERROR - 2022-07-13 05:12:57 --> {placeholder}
+ERROR - 2022-07-13 05:13:19 --> {placeholder}
+ERROR - 2022-07-13 05:13:19 --> {placeholder}
+ERROR - 2022-07-13 05:13:20 --> {placeholder}
+ERROR - 2022-07-13 05:13:53 --> {Placeholder}
+ERROR - 2022-07-13 05:15:17 --> APPPATH/Controllers\Home.php --> 25
+ERROR - 2022-07-13 05:18:20 --> APPPATH/Controllers\Home.php --> 25
+ERROR - 05:19:40 --> APPPATH/Controllers\Home.php --> 25
+ERROR - 05:22 --> APPPATH/Controllers\Home.php --> 25
+ERROR - 05:24 --> APPPATH/Controllers\Home.php | 25
+CRITICAL - 05:38 --> [ERROR] {exception} is an invalid log level.
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Log\Logger.php(309): CodeIgniter\Log\Exceptions\LogException::forInvalidLogLevel('[ERROR] {except...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Common.php(829): CodeIgniter\Log\Logger->log('[ERROR] {except...', '['exception' =>...', Array)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(26): log_message('[ERROR] {except...', '['exception' =>...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 05:39 --> Argument 3 passed to log_message() must be of the type array, string given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php on line 26
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(26): log_message('error', '[ERROR] {except...', '['exception' =>...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 05:39 --> [ERROR] AAAA
+ERROR - 05:40 --> [ERRORs] AAAA
+ERROR - 05:40 --> [ERRORs] {exception}
+ERROR - 05:41 --> [ERRORs] AAAA
+ERROR - 05:43 --> [Login] The user is loged in [Logout] The user is logouted
+ERROR - 05:46 --> \n\r hello new line
+ERROR - 05:46 --> 
+ hello new line
+ERROR - 05:47 --> 
+ --------------------------------------- hello new line --------------------------------------- 
+
+ERROR - 05:48 --> 
+ --------------------------------------- 
+ hello new line 
+ --------------------------------------- 
+
+ERROR - 05:49 --> 
+ Your messages 
+
+ERROR - 05:49 --> 
+ Your messages 
+
+ERROR - 05:49 --> 
+ Your messages 
+
+ALERT - 05:51 --> 
+ Your messages 
+
+ALERT - 05:52 --> APPPATH/Controllers\Home.php | Line: 43 
+ Your messages 
+
+ALERT - 05:52 --> APPPATH/Controllers\Home.php | Line: 43 
+ Your messages 
+
+ALERT - 05:55 --> APPPATH/Controllers\Home.php | Line: 42 
+ This log is first log 
+
+CRITICAL - 06:03 --> Class 'App\Libraries\Authentication\Authentication' not found
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(38): App\Controllers\Panel\Dashboard->add_history('red')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->translate()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 06:04 --> Class 'App\Libraries\Authentication\Authentication' not found
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(38): App\Controllers\Panel\Dashboard->add_history('green')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->translate()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

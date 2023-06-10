@@ -1,0 +1,86 @@
+CRITICAL - 2022-05-27 02:47:40 --> Allowed fields must be specified for model: App\Models\MAbout
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\MAbo...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(729): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\EditAbout.php(204): CodeIgniter\Model->insert(Array)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\EditAbout.php(197): App\Controllers\Panel\EditAbout->add_titr('add first titr ...')
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\EditAbout->add()
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\EditAbout))
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 02:56:20 --> Call to a member function table() on null
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\EditAbout.php(17): App\Models\MAbout->get_about()
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\EditAbout->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\EditAbout))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 02:57:21 --> Call to a member function table() on null
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\EditAbout.php(17): App\Models\MAbout->get_about()
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\EditAbout->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\EditAbout))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 02:57:30 --> Call to a member function table() on null
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(42): App\Models\MAbout->short()
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 02:57:45 --> Call to a member function table() on null
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(42): App\Models\MAbout->short()
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 03:25:18 --> Call to a member function table() on null
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(42): App\Models\MAbout->short()
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 03:40:18 --> Trying to get property 'content' of non-object
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\SoftWare\\xam...', 43, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 05:14:06 --> Access level to App\Controllers\Panel\EditFAQ::$data must be protected (as in class App\Controllers\BaseController) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-27 05:16:08 --> Argument 1 passed to App\Controllers\Panel\EditFAQ::generate_forms() must be an object, array given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\EditFAQ.php on line 31
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\EditFAQ.php(31): App\Controllers\Panel\EditFAQ->generate_forms(Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\EditFAQ.php(16): App\Controllers\Panel\EditFAQ->edit_forms()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\EditFAQ->index()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\EditFAQ))
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 05:18:44 --> Argument 1 passed to note() must be of the type string, object given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\EditFAQ.php on line 38
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\EditFAQ.php(38): note(Object(stdClass), 'brown')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\EditFAQ.php(31): App\Controllers\Panel\EditFAQ->generate_forms(Array)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\EditFAQ.php(16): App\Controllers\Panel\EditFAQ->edit_forms()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\EditFAQ->index()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\EditFAQ))
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 23:39:03 --> Undefined variable: classes
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Helpers\Elements_helper.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\SoftWare\\xam...', 29, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Views\VHome.php(82): paragraph('For development...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(220): include('E:\\SoftWare\\xam...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Common.php(1217): CodeIgniter\View\View->render('VHome', Array, true)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\BaseController.php(86): view('VHome')
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(51): App\Controllers\BaseController->load_page('VHome', Array)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}

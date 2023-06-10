@@ -1,0 +1,119 @@
+CRITICAL - 2022-06-05 00:14:55 --> Undefined variable: test
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Views\Panel\VManageUsers.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\SoftWare\\xam...', 2, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(220): include('E:\\SoftWare\\xam...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Common.php(1217): CodeIgniter\View\View->render('Panel/VManageUs...', Array, true)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\BaseController.php(86): view('Panel/VManageUs...')
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\ManageUsers.php(20): App\Controllers\BaseController->load_page('Panel/VManageUs...', Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\ManageUsers->index()
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageUsers))
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-05 00:26:29 --> Undefined variable: test
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Views\Panel\VManageUsers.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\SoftWare\\xam...', 2, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(220): include('E:\\SoftWare\\xam...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Common.php(1217): CodeIgniter\View\View->render('Panel/VManageUs...', Array, true)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\BaseController.php(86): view('Panel/VManageUs...')
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\ManageUsers.php(20): App\Controllers\BaseController->load_page('Panel/VManageUs...', Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\ManageUsers->index()
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageUsers))
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-05 00:26:29 --> Undefined variable: test
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Views\Panel\VManageUsers.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\SoftWare\\xam...', 2, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(220): include('E:\\SoftWare\\xam...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Common.php(1217): CodeIgniter\View\View->render('Panel/VManageUs...', Array, true)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\BaseController.php(86): view('Panel/VManageUs...')
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\ManageUsers.php(20): App\Controllers\BaseController->load_page('Panel/VManageUs...', Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\ManageUsers->index()
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageUsers))
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-05 00:29:24 --> Undefined variable: test
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Views\Panel\VManageUsers.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\SoftWare\\xam...', 2, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(220): include('E:\\SoftWare\\xam...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Common.php(1217): CodeIgniter\View\View->render('Panel/VManageUs...', Array, true)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\BaseController.php(86): view('Panel/VManageUs...')
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\ManageUsers.php(20): App\Controllers\BaseController->load_page('Panel/VManageUs...', Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\ManageUsers->index()
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageUsers))
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-05 00:36:26 --> Undefined offset: 0
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\ManageUsers.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\SoftWare\\xam...', 85, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\ManageUsers->operations()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageUsers))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-05 03:10:19 --> Declaration of App\Models\MUsers::find(?string $id) should be compatible with CodeIgniter\BaseModel::find($id = NULL)
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MUsers.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', 'E:\\SoftWare\\xam...', 65, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Autoloader\Autoloader.php(294): include_once('E:\\SoftWare\\xam...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\SoftWare\\xam...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MUse...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MUse...')
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\ManageUsers.php(30): spl_autoload_call('App\\Models\\MUse...')
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\ManageUsers.php(13): App\Controllers\Panel\ManageUsers->all_user()
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\ManageUsers->index()
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageUsers))
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-05 03:10:44 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 170
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(170): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, '3')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MUsers.php(66): CodeIgniter\BaseModel->find('3')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\ManageUsers.php(135): App\Models\MUsers->find_user('3')
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\ManageUsers.php(94): App\Controllers\Panel\ManageUsers->block('3')
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\ManageUsers->operations()
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageUsers))
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-05 04:42:30 --> Using $this when not in object context
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\ManageUsers.php(155): App\Models\MUsers::remove_account('3')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\ManageUsers.php(98): App\Controllers\Panel\ManageUsers->remove('3')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\ManageUsers->operations()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageUsers))
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-05 04:42:35 --> Using $this when not in object context
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\ManageUsers.php(155): App\Models\MUsers::remove_account('2')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\ManageUsers.php(98): App\Controllers\Panel\ManageUsers->remove('2')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\ManageUsers->operations()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageUsers))
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-05 04:43:14 --> Using $this when not in object context
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\ManageUsers.php(155): App\Models\MUsers::remove_account('3')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\ManageUsers.php(98): App\Controllers\Panel\ManageUsers->remove('3')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\ManageUsers->operations()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageUsers))
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-05 04:43:16 --> Using $this when not in object context
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\ManageUsers.php(155): App\Models\MUsers::remove_account('2')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\ManageUsers.php(98): App\Controllers\Panel\ManageUsers->remove('2')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\ManageUsers->operations()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageUsers))
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-05 04:44:02 --> Using $this when not in object context
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\ManageUsers.php(155): App\Models\MUsers::remove_account('3')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\ManageUsers.php(98): App\Controllers\Panel\ManageUsers->remove('3')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\ManageUsers->operations()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageUsers))
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}

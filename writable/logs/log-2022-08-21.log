@@ -1,0 +1,9 @@
+CRITICAL - 10:24 --> Undefined offset: 1
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\SoftWare\\xam...', 39, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Elements.php(27): App\Libraries\Elements\Handlers\Styles->set_color('Hello how are y...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(43): App\Libraries\Elements\Elements->heading('Hello how are y...', '1', '5')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

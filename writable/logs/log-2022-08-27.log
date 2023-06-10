@@ -1,0 +1,246 @@
+CRITICAL - 05:47 --> Undefined index: style
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(452): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\SoftWare\\xam...', 452, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(411): App\Libraries\Elements\Handlers\Styles->set_text_decoration('overline')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(209): App\Libraries\Elements\Handlers\Styles->set_overline()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(159): App\Libraries\Elements\Handlers\Styles->run_formating()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(144): App\Libraries\Elements\Handlers\Styles->set_formats('Hello how are y...')
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Elements.php(63): App\Libraries\Elements\Handlers\Styles->text_formating('Hello how are y...')
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(46): App\Libraries\Elements\Elements->heading('Hello how are y...')
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 06:11 --> Argument 1 passed to App\Libraries\Elements\Handlers\Styles::class() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php on line 626
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(626): App\Libraries\Elements\Handlers\Styles->class(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Elements.php(81): App\Libraries\Elements\Handlers\Styles->set_align('')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(45): App\Libraries\Elements\Elements->paragraph(' Lorem ipsum do...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 06:32 --> Undefined index: style
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(466): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\SoftWare\\xam...', 466, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(456): App\Libraries\Elements\Handlers\Styles->set_text_decoration('line-through')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(224): App\Libraries\Elements\Handlers\Styles->set_line_through()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(172): App\Libraries\Elements\Handlers\Styles->run_formating()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(157): App\Libraries\Elements\Handlers\Styles->set_formats('Hello how are y...')
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Elements.php(63): App\Libraries\Elements\Handlers\Styles->text_formating('Hello how are y...')
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(46): App\Libraries\Elements\Elements->heading('Hello how are y...')
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 06:49 --> Undefined index: class
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\SoftWare\\xam...', 132, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(113): App\Libraries\Elements\Handlers\Styles->get_class()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(122): App\Libraries\Elements\Handlers\Styles->class()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(109): App\Libraries\Elements\Handlers\Styles->set_class('w3-medium ')
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(260): App\Libraries\Elements\Handlers\Styles->class('w3-medium ')
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(230): App\Libraries\Elements\Handlers\Styles->set_text_size()
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(188): App\Libraries\Elements\Handlers\Styles->run_formating()
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(173): App\Libraries\Elements\Handlers\Styles->set_formats('Hello how are y...')
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Elements.php(63): App\Libraries\Elements\Handlers\Styles->text_formating('Hello how are y...')
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(46): App\Libraries\Elements\Elements->heading('Hello how are y...')
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#11 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 06:51 --> Return value of App\Libraries\Elements\Handlers\Styles::get_class() must be of the type string, null returned
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(117): App\Libraries\Elements\Handlers\Styles->get_class()
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(126): App\Libraries\Elements\Handlers\Styles->class()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(113): App\Libraries\Elements\Handlers\Styles->set_class('w3-medium ')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(268): App\Libraries\Elements\Handlers\Styles->class('w3-medium ')
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(238): App\Libraries\Elements\Handlers\Styles->set_text_size()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(196): App\Libraries\Elements\Handlers\Styles->run_formating()
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(181): App\Libraries\Elements\Handlers\Styles->set_formats('Hello how are y...')
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Elements.php(63): App\Libraries\Elements\Handlers\Styles->text_formating('Hello how are y...')
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(46): App\Libraries\Elements\Elements->heading('Hello how are y...')
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 06:52 --> Undefined index: class
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\SoftWare\\xam...', 129, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(113): App\Libraries\Elements\Handlers\Styles->set_class('w3-medium ')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(268): App\Libraries\Elements\Handlers\Styles->class('w3-medium ')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(238): App\Libraries\Elements\Handlers\Styles->set_text_size()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(196): App\Libraries\Elements\Handlers\Styles->run_formating()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(181): App\Libraries\Elements\Handlers\Styles->set_formats('Hello how are y...')
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Elements.php(63): App\Libraries\Elements\Handlers\Styles->text_formating('Hello how are y...')
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(46): App\Libraries\Elements\Elements->heading('Hello how are y...')
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 06:53 --> Return value of App\Libraries\Elements\Handlers\Styles::style() must be of the type string, null returned
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(91): App\Libraries\Elements\Handlers\Styles->style()
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(78): App\Libraries\Elements\Handlers\Styles->set_style('text-decoration...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(510): App\Libraries\Elements\Handlers\Styles->style('text-decoration...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(480): App\Libraries\Elements\Handlers\Styles->set_text_decoration('line-through')
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(248): App\Libraries\Elements\Handlers\Styles->set_line_through()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(196): App\Libraries\Elements\Handlers\Styles->run_formating()
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Styles.php(181): App\Libraries\Elements\Handlers\Styles->set_formats('Hello how are y...')
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Elements.php(63): App\Libraries\Elements\Handlers\Styles->text_formating('Hello how are y...')
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(46): App\Libraries\Elements\Elements->heading('Hello how are y...')
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 08:32 --> Undefined index: text
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Elements.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\SoftWare\\xam...', 88, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(45): App\Libraries\Elements\Elements->paragraph(' Lorem ipsum do...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 08:45 --> Undefined index: text
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Elements.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\SoftWare\\xam...', 88, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(45): App\Libraries\Elements\Elements->paragraph(' Lorem ipsum do...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 09:57 --> Call to a member function set_bg_color() on string
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(47): App\Libraries\Elements\Elements->row(' Lorem ipsum do...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 09:59 --> A void function must not return a value
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 09:59 --> Call to a member function set_bg_color() on string
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(47): App\Libraries\Elements\Elements->row(' Lorem ipsum do...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 10:09 --> Call to a member function set_bg_color() on string
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(47): App\Libraries\Elements\Elements->row(' Lorem ipsum do...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 10:10 --> Call to a member function set_bg_color() on string
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(47): App\Libraries\Elements\Elements->row(' Lorem ipsum do...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 10:10 --> Call to a member function set_bg_color() on string
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(47): App\Libraries\Elements\Elements->row(' Lorem ipsum do...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 10:15 --> Argument 2 passed to App\Libraries\Elements\Handlers\Tags::section() must be of the type array, object given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Elements.php on line 61
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Elements.php(61): App\Libraries\Elements\Handlers\Tags->section(' Lorem ipsum do...', Object(App\Libraries\Elements\Handlers\Styles))
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(47): App\Libraries\Elements\Elements->row(' Lorem ipsum do...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 10:15 --> Call to undefined method App\Libraries\Elements\Handlers\Tags::parse_attr_attr()
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Elements.php(62): App\Libraries\Elements\Handlers\Tags->section(' Lorem ipsum do...', Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(47): App\Libraries\Elements\Elements->row(' Lorem ipsum do...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 10:16 --> Array to string conversion
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Tags.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\SoftWare\\xam...', 20, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Tags.php(55): App\Libraries\Elements\Handlers\Tags->parse_attr(Array)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Elements.php(62): App\Libraries\Elements\Handlers\Tags->section(' Lorem ipsum do...', Array)
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(47): App\Libraries\Elements\Elements->row(' Lorem ipsum do...')
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 10:18 --> Array to string conversion
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Tags.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\SoftWare\\xam...', 20, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Tags.php(55): App\Libraries\Elements\Handlers\Tags->parse_attr(Array)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Elements.php(62): App\Libraries\Elements\Handlers\Tags->section(' Lorem ipsum do...', Array)
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(47): App\Libraries\Elements\Elements->row(' Lorem ipsum do...')
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 10:19 --> Array to string conversion
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Tags.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\SoftWare\\xam...', 24, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Tags.php(59): App\Libraries\Elements\Handlers\Tags->parse_attr(Array)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Elements.php(62): App\Libraries\Elements\Handlers\Tags->section(' Lorem ipsum do...', Array)
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(47): App\Libraries\Elements\Elements->row(' Lorem ipsum do...')
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 10:19 --> Array to string conversion
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Tags.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\SoftWare\\xam...', 24, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Tags.php(59): App\Libraries\Elements\Handlers\Tags->parse_attr(Array)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Elements.php(62): App\Libraries\Elements\Handlers\Tags->section(' Lorem ipsum do...', Array)
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(47): App\Libraries\Elements\Elements->row(' Lorem ipsum do...')
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 10:19 --> Array to string conversion
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Tags.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\SoftWare\\xam...', 24, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Tags.php(59): App\Libraries\Elements\Handlers\Tags->parse_attr(Array)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Elements.php(62): App\Libraries\Elements\Handlers\Tags->section(' Lorem ipsum do...', Array)
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(47): App\Libraries\Elements\Elements->row(' Lorem ipsum do...')
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 10:19 --> Array to string conversion
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Tags.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\SoftWare\\xam...', 24, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Handlers\Tags.php(59): App\Libraries\Elements\Handlers\Tags->parse_attr(Array)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Elements\Elements.php(62): App\Libraries\Elements\Handlers\Tags->section(' Lorem ipsum do...', Array)
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(47): App\Libraries\Elements\Elements->row(' Lorem ipsum do...')
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 10:26 --> Undefined variable: content
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\SoftWare\\xam...', 47, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 19:31 --> Call to a member function padding() on null
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(47): App\Libraries\Elements\Elements->row('Hello how are y...', '3', 'blue')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 19:31 --> Call to a member function padding() on null
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(47): App\Libraries\Elements\Elements->row('Hello how are y...', '3', 'blue')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

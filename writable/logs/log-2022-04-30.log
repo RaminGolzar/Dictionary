@@ -1,0 +1,567 @@
+CRITICAL - 2022-04-30 05:22:41 --> Undefined variable: color
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Helpers\Elements_helper.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\SoftWare\\xam...', 149, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(52): span()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-30 06:03:12 --> Call to undefined function doctype()
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(220): include()
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Common.php(1217): CodeIgniter\View\View->render('Templates/Head', Array, true)
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\BaseController.php(89): view('Templates/Head', Array)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(53): App\Controllers\BaseController->load_page('VHome', Array)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-30 06:03:22 --> Call to undefined function doctype()
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(220): include()
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Common.php(1217): CodeIgniter\View\View->render('Templates/Head', Array, true)
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\BaseController.php(89): view('Templates/Head', Array)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(53): App\Controllers\BaseController->load_page('VHome', Array)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-30 06:17:26 --> link(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'link(): No such...', 'E:\\SoftWare\\xam...', 8, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Views\Templates\Head.php(8): link('css', 'w3')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(220): include('E:\\SoftWare\\xam...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Common.php(1217): CodeIgniter\View\View->render('Templates/Head', Array, true)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\BaseController.php(89): view('Templates/Head', Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(53): App\Controllers\BaseController->load_page('VHome', Array)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-30 06:18:42 --> link(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'link(): No such...', 'E:\\SoftWare\\xam...', 8, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Views\Templates\Head.php(8): link('css', 'w3')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(220): include('E:\\SoftWare\\xam...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Common.php(1217): CodeIgniter\View\View->render('Templates/Head', Array, true)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\BaseController.php(89): view('Templates/Head', Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(53): App\Controllers\BaseController->load_page('VHome', Array)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-30 06:19:41 --> link(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'link(): No such...', 'E:\\SoftWare\\xam...', 8, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Views\Templates\Head.php(8): link('http://localhos...', 'stylesheet')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(220): include('E:\\SoftWare\\xam...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Common.php(1217): CodeIgniter\View\View->render('Templates/Head', Array, true)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\BaseController.php(89): view('Templates/Head', Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(53): App\Controllers\BaseController->load_page('VHome', Array)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-30 06:19:42 --> link(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'link(): No such...', 'E:\\SoftWare\\xam...', 8, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Views\Templates\Head.php(8): link('http://localhos...', 'stylesheet')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(220): include('E:\\SoftWare\\xam...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Common.php(1217): CodeIgniter\View\View->render('Templates/Head', Array, true)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\BaseController.php(89): view('Templates/Head', Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(53): App\Controllers\BaseController->load_page('VHome', Array)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-30 06:45:54 --> Undefined variable: elapsed_time
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Views\Templates\Header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\SoftWare\\xam...', 5, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(220): include('E:\\SoftWare\\xam...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Common.php(1217): CodeIgniter\View\View->render('Templates/Heade...', Array, true)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Html.php(6): view('Templates/Heade...', Array)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\Cell.php(128): App\Libraries\Html::header(Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Common.php(1238): CodeIgniter\View\Cell->render('App\\Libraries\\H...', NULL, 0, 'AppLibrariesHtm...')
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\BaseController.php(90): view_cell('App\\Libraries\\H...')
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\FAQ.php(20): App\Controllers\BaseController->load_page('VFAQ', Array)
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\FAQ->index()
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FAQ))
+#11 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-04-30 06:47:05 --> Use of undefined constant elapsed_time - assumed 'elapsed_time' (this will throw an Error in a future version of PHP)
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Views\Templates\Header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\SoftWare\\xam...', 5, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(220): include('E:\\SoftWare\\xam...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Common.php(1217): CodeIgniter\View\View->render('Templates/Heade...', Array, true)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Html.php(6): view('Templates/Heade...', Array)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\Cell.php(128): App\Libraries\Html::header(Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Common.php(1238): CodeIgniter\View\Cell->render('App\\Libraries\\H...', NULL, 0, 'AppLibrariesHtm...')
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\BaseController.php(90): view_cell('App\\Libraries\\H...')
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\FAQ.php(20): App\Controllers\BaseController->load_page('VFAQ', Array)
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\FAQ->index()
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FAQ))
+#11 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-04-30 06:47:25 --> Undefined variable: elapsed_time
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Views\Templates\Header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\SoftWare\\xam...', 5, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(220): include('E:\\SoftWare\\xam...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Common.php(1217): CodeIgniter\View\View->render('Templates/Heade...', Array, true)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Html.php(6): view('Templates/Heade...', Array)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\Cell.php(128): App\Libraries\Html::header(Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Common.php(1238): CodeIgniter\View\Cell->render('App\\Libraries\\H...', NULL, 0, 'AppLibrariesHtm...')
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\BaseController.php(90): view_cell('App\\Libraries\\H...')
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\FAQ.php(20): App\Controllers\BaseController->load_page('VFAQ', Array)
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\FAQ->index()
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FAQ))
+#11 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-04-30 08:33:35 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:58:04 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:58:09 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:58:11 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:58:13 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:58:14 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:58:14 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:58:15 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:58:16 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:58:17 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:58:17 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:58:18 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:58:21 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:58:23 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:58:28 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:58:29 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:58:30 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:58:31 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:58:36 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:58:36 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:58:46 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:59:06 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:59:14 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:59:17 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:59:27 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:59:41 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:59:41 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 08:59:41 --> Argument 2 passed to App\Models\MWords::search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 30
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): App\Models\MWords->search('', NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-30 09:35:55 --> mysqli_sql_exception: Unknown column 'en' in 'where clause' in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(15): CodeIgniter\Model->__call('get', Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->index()
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-30 09:35:55 --> Unknown column 'en' in 'where clause'
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(15): CodeIgniter\Model->__call('get', Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->index()
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-04-30 09:42:12 --> mysqli_sql_exception: Unknown column 'en' in 'where clause' in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MWords.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(17): App\Models\MWords->like_search('en', 'gre')
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->index()
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-30 09:42:12 --> Unknown column 'en' in 'where clause'
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MWords.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(17): App\Models\MWords->like_search('en', 'gre')
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->index()
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-04-30 09:42:15 --> mysqli_sql_exception: Unknown column 'en' in 'where clause' in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MWords.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(17): App\Models\MWords->like_search('en', 'gre')
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->index()
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-30 09:42:15 --> Unknown column 'en' in 'where clause'
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MWords.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(17): App\Models\MWords->like_search('en', 'gre')
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->index()
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-30 09:43:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(17): App\Models\MWords->like_search('en', 'gre')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-30 09:45:08 --> mysqli_sql_exception: Unknown column 'en' in 'where clause' in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MWords.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(17): App\Models\MWords->like_search('en', 'gre')
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->index()
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-30 09:45:08 --> Unknown column 'en' in 'where clause'
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MWords.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(17): App\Models\MWords->like_search('en', 'gre')
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->index()
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-30 09:45:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(17): App\Models\MWords->like_search('en', 'gre')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 09:46:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(17): App\Models\MWords->like_search('en', 'gre')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 09:46:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(17): App\Models\MWords->like_search('en', 'gre')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 10:20:05 --> Undefined variable: w
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\SoftWare\\xam...', 30, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(43): App\Controllers\Panel\Dashboard->translate()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-30 10:20:11 --> Undefined variable: w
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\SoftWare\\xam...', 30, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(43): App\Controllers\Panel\Dashboard->translate()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-30 10:20:23 --> Undefined variable: w
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\SoftWare\\xam...', 30, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(43): App\Controllers\Panel\Dashboard->translate()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-30 10:22:27 --> Undefined variable: result
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\SoftWare\\xam...', 30, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(43): App\Controllers\Panel\Dashboard->translate()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-30 10:24:26 --> Undefined index: word
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\SoftWare\\xam...', 44, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 10:24:34 --> Undefined index: word
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\SoftWare\\xam...', 44, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 10:26:09 --> Undefined index: word
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\SoftWare\\xam...', 46, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->search()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 10:37:06 --> Undefined variable: w
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\SoftWare\\xam...', 27, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->autocomplete()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 10:37:10 --> Undefined variable: w
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\SoftWare\\xam...', 27, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->autocomplete()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 10:37:13 --> Undefined variable: w
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\SoftWare\\xam...', 27, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->autocomplete()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 10:37:47 --> Argument 1 passed to App\Models\MWords::like_search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 29
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(29): App\Models\MWords->like_search(NULL, '', 'befor')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->autocomplete()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 10:37:48 --> Argument 1 passed to App\Models\MWords::like_search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 29
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(29): App\Models\MWords->like_search(NULL, '', 'befor')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->autocomplete()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 10:37:49 --> Array to string conversion
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\SoftWare\\xam...', 33, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->autocomplete()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 10:37:51 --> Argument 1 passed to App\Models\MWords::like_search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 29
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(29): App\Models\MWords->like_search(NULL, '', 'befor')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->autocomplete()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 10:38:42 --> Argument 1 passed to App\Models\MWords::like_search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 29
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(29): App\Models\MWords->like_search(NULL, '')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->autocomplete()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 10:42:01 --> Argument 1 passed to App\Models\MWords::like_search() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php on line 29
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\Dashboard.php(29): App\Models\MWords->like_search(NULL, '')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\Dashboard->autocomplete()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

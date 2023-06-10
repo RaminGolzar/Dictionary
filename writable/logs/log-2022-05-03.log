@@ -1,0 +1,143 @@
+CRITICAL - 2022-05-03 06:43:58 --> Argument 2 passed to App\Models\MUsers::get_user_by_email() must be of the type string, array given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Authentication.php on line 50
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Authentication.php(50): App\Models\MUsers->get_user_by_email('admin@email.ir', Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(61): App\Libraries\Authentication->login('admin@email.ir', '1')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->login()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-03 07:00:55 --> Array to string conversion
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Authentication.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\SoftWare\\xam...', 50, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(61): App\Libraries\Authentication->login('admin@email.ir', '1')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->login()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-03 07:01:35 --> Array to string conversion
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Authentication.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\SoftWare\\xam...', 50, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(61): App\Libraries\Authentication->login('admin@email.ir', '1')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->login()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-03 07:19:58 --> Only variables should be passed by reference
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables ...', 'E:\\SoftWare\\xam...', 22, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 07:21:14 --> syntax error, unexpected ')'
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Home')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Home')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 08:41:55 --> Argument 1 passed to App\Libraries\Authentication::__construct() must be of the type array, object given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Filters\Auth.php on line 9
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Filters\Auth.php(9): App\Libraries\Authentication->__construct(Object(Config\Authentication))
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Filters\Filters.php(181): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('Panel/Dashboard', 'before')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-03 09:24:14 --> mysqli_sql_exception: Duplicate entry '09127777777' for key 'tel' in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Register.php(64): CodeIgniter\Model->insert(Array)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Register->register()
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-03 09:24:14 --> Duplicate entry '09127777777' for key 'tel'
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Register.php(64): CodeIgniter\Model->insert(Array)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Register->register()
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 09:37:28 --> mysqli_sql_exception: Duplicate entry '23432432' for key 'tel' in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Register.php(64): CodeIgniter\Model->insert(Array)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Register->register()
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-03 09:37:28 --> Duplicate entry '23432432' for key 'tel'
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Register.php(64): CodeIgniter\Model->insert(Array)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Register->register()
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 09:47:00 --> mysqli_sql_exception: Duplicate entry '09177777777' for key 'tel' in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Register.php(64): CodeIgniter\Model->insert(Array)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Register->register()
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-03 09:47:00 --> Duplicate entry '09177777777' for key 'tel'
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Register.php(64): CodeIgniter\Model->insert(Array)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Register->register()
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-03 10:31:19 --> There is no data to insert.
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(1682): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(719): CodeIgniter\BaseModel->transformDataToArray(Array, 'insert')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Register.php(65): CodeIgniter\Model->insert(Array)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Register.php(57): App\Controllers\Register->login_operation(Array)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Register->register()
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,10 @@
+CRITICAL - 2022-07-12 06:36:40 --> There is no data to update.
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\ManageUsers.php(153): CodeIgniter\Model->update('1', Array)
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\ManageUsers.php(104): App\Controllers\Panel\ManageUsers->block('1', false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\ManageUsers->operations()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageUsers))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,631 @@
+CRITICAL - 2022-06-10 06:07:47 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 174
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(174): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(518): CodeIgniter\Model->doFind(false, NULL)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(13): CodeIgniter\BaseModel->find()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-10 06:17:16 --> mysqli_sql_exception: No database selected in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MUsers.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Authentication\Handlers\is.php(45): App\Models\MUsers->check_session_data(Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Authentication\Handlers\is.php(19): App\Libraries\Authentication\Handlers\is->check_db()
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Authentication\Authentication.php(46): App\Libraries\Authentication\Handlers\is->islogedin(2)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Filters\Auth.php(12): App\Libraries\Authentication\Authentication->is_loged_in(2)
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Filters\Filters.php(181): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('Panel/Dashboard', 'before')
+#11 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-10 06:17:16 --> No database selected
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MUsers.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Authentication\Handlers\is.php(45): App\Models\MUsers->check_session_data(Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Authentication\Handlers\is.php(19): App\Libraries\Authentication\Handlers\is->check_db()
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Authentication\Authentication.php(46): App\Libraries\Authentication\Handlers\is->islogedin(2)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Filters\Auth.php(12): App\Libraries\Authentication\Authentication->is_loged_in(2)
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Filters\Filters.php(181): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('Panel/Dashboard', 'before')
+#11 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-10 06:17:45 --> Class 'CodeIgniter\Database\PDO\Connection' not found
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('PDO', 'CodeIgniter\\Dat...', Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MUsers.php(9): CodeIgniter\Database\Config::connect()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Authentication\Authentication.php(27): App\Models\MUsers->__construct()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Filters\Auth.php(10): App\Libraries\Authentication\Authentication->__construct()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Filters\Filters.php(181): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('Panel/Dashboard', 'before')
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-10 06:19:50 --> Class 'CodeIgniter\Database\PDO\Connection' not found
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('PDO', 'CodeIgniter\\Dat...', Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MUsers.php(9): CodeIgniter\Database\Config::connect()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Authentication\Authentication.php(27): App\Models\MUsers->__construct()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Filters\Auth.php(10): App\Libraries\Authentication\Authentication->__construct()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Filters\Filters.php(181): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('Panel/Dashboard', 'before')
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-10 06:20:42 --> Class 'CodeIgniter\Database\PDO\Connection' not found
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('PDO', 'CodeIgniter\\Dat...', Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MUsers.php(9): CodeIgniter\Database\Config::connect()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Authentication\Authentication.php(27): App\Models\MUsers->__construct()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Filters\Auth.php(10): App\Libraries\Authentication\Authentication->__construct()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Filters\Filters.php(181): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('Panel/Dashboard', 'before')
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-10 06:24:03 --> Class 'CodeIgniter\Database\PDO\Connection' not found
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('PDO', 'CodeIgniter\\Dat...', Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MUsers.php(9): CodeIgniter\Database\Config::connect()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Authentication\Authentication.php(27): App\Models\MUsers->__construct()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Filters\Auth.php(10): App\Libraries\Authentication\Authentication->__construct()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Filters\Filters.php(181): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('Panel/Dashboard', 'before')
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-10 06:24:05 --> Class 'CodeIgniter\Database\PDO\Connection' not found
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('PDO', 'CodeIgniter\\Dat...', Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MUsers.php(9): CodeIgniter\Database\Config::connect()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Authentication\Authentication.php(27): App\Models\MUsers->__construct()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Filters\Auth.php(10): App\Libraries\Authentication\Authentication->__construct()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Filters\Filters.php(181): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('Panel/Dashboard', 'before')
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-10 06:29:22 --> Class 'CodeIgniter\Database\PDO\Connection' not found
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('PDO', 'CodeIgniter\\Dat...', Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MUsers.php(9): CodeIgniter\Database\Config::connect()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Authentication\Authentication.php(27): App\Models\MUsers->__construct()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Filters\Auth.php(10): App\Libraries\Authentication\Authentication->__construct()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Filters\Filters.php(181): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('Panel/Dashboard', 'before')
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-10 06:29:44 --> Class 'CodeIgniter\Database\PDO\Connection' not found
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('PDO', 'CodeIgniter\\Dat...', Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MUsers.php(9): CodeIgniter\Database\Config::connect()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Authentication\Authentication.php(27): App\Models\MUsers->__construct()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Filters\Auth.php(10): App\Libraries\Authentication\Authentication->__construct()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Filters\Filters.php(181): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('Panel/Dashboard', 'before')
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-10 06:30:05 --> Class 'CodeIgniter\Database\FFFF\Connection' not found
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('FFFF', 'CodeIgniter\\Dat...', Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MUsers.php(9): CodeIgniter\Database\Config::connect()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Authentication\Authentication.php(27): App\Models\MUsers->__construct()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Filters\Auth.php(10): App\Libraries\Authentication\Authentication->__construct()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Filters\Filters.php(181): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('Panel/Dashboard', 'before')
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-10 06:30:39 --> Class 'CodeIgniter\Database\PDO\Connection' not found
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('PDO', 'CodeIgniter\\Dat...', Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MUsers.php(9): CodeIgniter\Database\Config::connect()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Authentication\Authentication.php(27): App\Models\MUsers->__construct()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Filters\Auth.php(10): App\Libraries\Authentication\Authentication->__construct()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Filters\Filters.php(181): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('Panel/Dashboard', 'before')
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-10 06:35:50 --> You have not selected a database type to connect to.
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MUsers.php(9): CodeIgniter\Database\Config::connect()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Authentication\Authentication.php(27): App\Models\MUsers->__construct()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Filters\Auth.php(10): App\Libraries\Authentication\Authentication->__construct()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Filters\Filters.php(181): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('Panel/Dashboard', 'before')
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-10 06:36:24 --> mysqli_sql_exception: No database selected in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MUsers.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Authentication\Handlers\is.php(45): App\Models\MUsers->check_session_data(Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Authentication\Handlers\is.php(19): App\Libraries\Authentication\Handlers\is->check_db()
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Authentication\Authentication.php(46): App\Libraries\Authentication\Handlers\is->islogedin(2)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Filters\Auth.php(12): App\Libraries\Authentication\Authentication->is_loged_in(2)
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Filters\Filters.php(181): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('Panel/Dashboard', 'before')
+#11 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-10 06:36:24 --> No database selected
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MUsers.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Authentication\Handlers\is.php(45): App\Models\MUsers->check_session_data(Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Authentication\Handlers\is.php(19): App\Libraries\Authentication\Handlers\is->check_db()
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\Authentication\Authentication.php(46): App\Libraries\Authentication\Handlers\is->islogedin(2)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Filters\Auth.php(12): App\Libraries\Authentication\Authentication->is_loged_in(2)
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Filters\Filters.php(181): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('Panel/Dashboard', 'before')
+#11 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-10 06:57:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::find()
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-10 07:13:33 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 174
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(174): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(518): CodeIgniter\Model->doFind(false, NULL)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MAssist.php(37): CodeIgniter\BaseModel->find()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(13): App\Models\MAssist->test()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-10 07:14:11 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 170
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(170): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, 2)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MAssist.php(37): CodeIgniter\BaseModel->find(2)
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(13): App\Models\MAssist->test()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-10 07:15:52 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 214
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MAssist.php(37): CodeIgniter\BaseModel->findAll()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(13): App\Models\MAssist->test()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-10 07:15:54 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 214
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MAssist.php(37): CodeIgniter\BaseModel->findAll()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(13): App\Models\MAssist->test()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-10 07:16:17 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 214
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(2, 1)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MAssist.php(37): CodeIgniter\BaseModel->findAll(2, 1)
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(13): App\Models\MAssist->test()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-10 08:07:46 --> syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\SoftWare\\xam...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MAss...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MAss...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(11): spl_autoload_call('App\\Models\\MAss...')
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-10 08:08:40 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 170
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(170): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, 1)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(13): CodeIgniter\BaseModel->find(1)
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 08:10:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::find()
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(13): App\Models\MAssist->test()
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-10 08:11:26 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 174
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(174): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(518): CodeIgniter\Model->doFind(false, NULL)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MAssist.php(46): CodeIgniter\BaseModel->find()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(13): App\Models\MAssist->test()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-10 08:14:41 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 164
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(164): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(518): CodeIgniter\Model->doFind(false, Array)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(15): CodeIgniter\BaseModel->find(Array)
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 08:17:16 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 214
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): CodeIgniter\BaseModel->findAll()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 09:00:41 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 214
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): CodeIgniter\BaseModel->findAll()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 09:00:43 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 214
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): CodeIgniter\BaseModel->findAll()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 09:01:38 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 214
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MAssist.php(46): CodeIgniter\BaseModel->findAll()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): App\Models\MAssist->test()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-10 09:02:40 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 214
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MAssist.php(46): CodeIgniter\BaseModel->findAll()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): App\Models\MAssist->test()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-10 09:02:41 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 214
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MAssist.php(46): CodeIgniter\BaseModel->findAll()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): App\Models\MAssist->test()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-10 09:03:48 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 214
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MAssist.php(46): CodeIgniter\BaseModel->findAll()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): App\Models\MAssist->test()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-10 09:07:32 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 214
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MAssist.php(46): CodeIgniter\BaseModel->findAll()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): App\Models\MAssist->test()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-10 09:07:57 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 214
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MAssist.php(46): CodeIgniter\BaseModel->findAll()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): App\Models\MAssist->test()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-10 09:08:10 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 214
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MAssist.php(46): CodeIgniter\BaseModel->findAll()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): App\Models\MAssist->test()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-10 09:08:35 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 214
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MAssist.php(46): CodeIgniter\BaseModel->findAll()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): App\Models\MAssist->test()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-10 09:08:47 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 214
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MAssist.php(46): CodeIgniter\BaseModel->findAll()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): App\Models\MAssist->test()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-10 09:09:28 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 214
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MAssist.php(46): CodeIgniter\BaseModel->findAll()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): App\Models\MAssist->test()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-10 09:24:46 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 214
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MAssist.php(46): CodeIgniter\BaseModel->findAll()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): App\Models\MAssist->test()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-10 09:24:48 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 214
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MAssist.php(46): CodeIgniter\BaseModel->findAll()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): App\Models\MAssist->test()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-10 09:38:56 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 214
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MAssist.php(46): CodeIgniter\BaseModel->findAll()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): App\Models\MAssist->test()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-10 09:38:58 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 214
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MAssist.php(46): CodeIgniter\BaseModel->findAll()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): App\Models\MAssist->test()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-10 09:39:33 --> Call to a member function table() on null
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): App\Models\MAssist->test()
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-10 09:39:54 --> Call to a member function table() on null
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): App\Models\MAssist->test()
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-10 09:40:38 --> Call to a member function table() on null
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): App\Models\MAssist->test()
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-10 09:41:45 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 214
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MAssist.php(47): CodeIgniter\BaseModel->findAll()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): App\Models\MAssist->test()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-10 09:42:09 --> mysqli_sql_exception: Unknown column 'news' in 'field list' in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `news`\nF...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `news`\nF...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `news`\nF...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `news`\nF...', Array, false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(174): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(518): CodeIgniter\Model->doFind(false, NULL)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(190): CodeIgniter\BaseModel->find()
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(551): CodeIgniter\Model->doFindColumn('news')
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MAssist.php(47): CodeIgniter\BaseModel->findColumn('news')
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): App\Models\MAssist->test()
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#11 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#12 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-06-10 09:42:09 --> Unknown column 'news' in 'field list'
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `news`\nF...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `news`\nF...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `news`\nF...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `news`\nF...', Array, false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(174): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(518): CodeIgniter\Model->doFind(false, NULL)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(190): CodeIgniter\BaseModel->find()
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(551): CodeIgniter\Model->doFindColumn('news')
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MAssist.php(47): CodeIgniter\BaseModel->findColumn('news')
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): App\Models\MAssist->test()
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#11 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#12 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-06-10 09:44:43 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 214
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MAssist.php(47): CodeIgniter\BaseModel->findAll()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): App\Models\MAssist->test()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-10 09:46:37 --> Class 'App\Models\MAssist' not found
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-10 09:47:49 --> You must set the database table to be used with your query.
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(205): CodeIgniter\Model->builder()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MAssist.php(16): CodeIgniter\BaseModel->findAll()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): App\Models\MAssist->test()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-10 09:51:56 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 214
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Models\MAssist.php(20): CodeIgniter\BaseModel->findAll()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): App\Models\MAssist->test()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-10 10:19:02 --> Undefined variable: allAssist
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Views\Panel\VAssistForm.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\SoftWare\\xam...', 1, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(220): include('E:\\SoftWare\\xam...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Common.php(1217): CodeIgniter\View\View->render('Panel/VAssistFo...', Array, true)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\BaseController.php(86): view('Panel/VAssistFo...')
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(17): App\Controllers\BaseController->load_page('Panel/VAssistFo...')
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-10 10:19:37 --> Array to string conversion
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Views\Panel\VAssistForm.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\SoftWare\\xam...', 1, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(220): include('E:\\SoftWare\\xam...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Common.php(1217): CodeIgniter\View\View->render('Panel/VAssistFo...', Array, true)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\BaseController.php(86): view('Panel/VAssistFo...')
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(17): App\Controllers\BaseController->load_page('Panel/VAssistFo...', Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-10 10:19:38 --> Array to string conversion
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Views\Panel\VAssistForm.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\SoftWare\\xam...', 1, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(220): include('E:\\SoftWare\\xam...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Common.php(1217): CodeIgniter\View\View->render('Panel/VAssistFo...', Array, true)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\BaseController.php(86): view('Panel/VAssistFo...')
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(17): App\Controllers\BaseController->load_page('Panel/VAssistFo...', Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-10 10:20:00 --> Array to string conversion
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\SoftWare\\xam...', 13, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-10 10:31:49 --> Array to string conversion
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\SoftWare\\xam...', 16, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-10 11:32:28 --> syntax error, unexpected '}', expecting ';'
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Controller.php(92): helper(Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\BaseController.php(54): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-10 11:32:52 --> Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Common.php(698): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Unparenthesized...', 'E:\\SoftWare\\xam...', 260, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Common.php(698): include_once()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Controller.php(92): helper(Array)
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\BaseController.php(54): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-10 11:33:54 --> Undefined index: Name
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\SoftWare\\xam...', 26, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-10 11:33:55 --> Undefined index: Name
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Panel\AssistForm.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\SoftWare\\xam...', 26, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Panel\AssistForm->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\AssistForm))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

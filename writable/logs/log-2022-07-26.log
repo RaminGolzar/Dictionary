@@ -1,0 +1,247 @@
+ERROR - 03:06 --> hello loger
+CRITICAL - 04:54 --> Allowed fields must be specified for model: App\Models\EmployeeRole
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Empl...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(729): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(39): CodeIgniter\Model->insert(Array)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 04:56 --> mysqli_sql_exception: Duplicate entry '10-11' for key 'PRIMARY' in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(39): CodeIgniter\Model->insert(Array)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 04:56 --> Duplicate entry '10-11' for key 'PRIMARY'
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(39): CodeIgniter\Model->insert(Array)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ALERT - 04:56 --> APPPATH/Controllers\Home.php | Line: 41 
+ 0 
+
+ALERT - 06:03 --> APPPATH/Controllers\Home.php | Line: 39 
+  
+
+ALERT - 06:04 --> APPPATH/Controllers\Home.php | Line: 39 
+  
+
+ALERT - 06:04 --> APPPATH/Controllers\Home.php | Line: 39 
+  
+
+ALERT - 06:07 --> APPPATH/Controllers\Home.php | Line: 39 
+  
+
+CRITICAL - 06:08 --> Trying to get property 'getFieldNames' of non-object
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\SoftWare\\xam...', 39, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 06:12 --> Too few arguments to function CodeIgniter\Database\BaseConnection::getFieldNames(), 0 passed in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php on line 1772 and exactly 1 expected
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(1772): CodeIgniter\Database\BaseConnection->getFieldNames()
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(832): CodeIgniter\BaseModel->__call('getFieldNames', Array)
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(40): CodeIgniter\Model->__call('getFieldNames', Array)
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 06:57 --> syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\SoftWare\\xam...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\K...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\K...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(61): spl_autoload_call('App\\Libraries\\K...')
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 07:04 --> Assignments can only happen to writable values
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 07:09 --> Undefined variable: role
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\SoftWare\\xam...', 44, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 07:10 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 170
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(170): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, '1')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Role.php(100): CodeIgniter\BaseModel->find('1')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Role.php(78): App\Libraries\KingAuth\Handlers\Role->role_exist()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Role.php(41): App\Libraries\KingAuth\Handlers\Role->user_role_exist()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\KingAuth.php(384): App\Libraries\KingAuth\Handlers\Role->set(Array, 'employee_role')
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(44): App\Libraries\KingAuth\KingAuth->set_role(Array, 'employee_role')
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 07:11 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php on line 170
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(170): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, '1')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Role.php(100): CodeIgniter\BaseModel->find('1')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Role.php(78): App\Libraries\KingAuth\Handlers\Role->role_exist()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Role.php(41): App\Libraries\KingAuth\Handlers\Role->user_role_exist()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\KingAuth.php(384): App\Libraries\KingAuth\Handlers\Role->set(Array, 'employee_role')
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(44): App\Libraries\KingAuth\KingAuth->set_role(Array, 'employee_role')
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 07:13 --> Call to a member function getFieldNames() on null
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Role.php(47): App\Libraries\KingAuth\Handlers\Role->put_role()
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\KingAuth.php(384): App\Libraries\KingAuth\Handlers\Role->set(Array, 'employee_role')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(44): App\Libraries\KingAuth\KingAuth->set_role(Array, 'employee_role')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 07:13 --> Trying to get property 'db' of non-object
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Role.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\SoftWare\\xam...', 123, Array)
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Role.php(47): App\Libraries\KingAuth\Handlers\Role->put_role()
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\KingAuth.php(384): App\Libraries\KingAuth\Handlers\Role->set(Array, 'employee_role')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(44): App\Libraries\KingAuth\KingAuth->set_role(Array, 'employee_role')
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 07:15 --> Call to a member function getFieldNames() on null
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Role.php(47): App\Libraries\KingAuth\Handlers\Role->put_role()
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\KingAuth.php(384): App\Libraries\KingAuth\Handlers\Role->set(Array, 'employee_role')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(44): App\Libraries\KingAuth\KingAuth->set_role(Array, 'employee_role')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 07:16 --> Call to a member function getFieldNames() on null
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Role.php(47): App\Libraries\KingAuth\Handlers\Role->put_role()
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\KingAuth.php(384): App\Libraries\KingAuth\Handlers\Role->set(Array, 'employee_role')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(44): App\Libraries\KingAuth\KingAuth->set_role(Array, 'employee_role')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 07:22 --> Call to a member function getFieldNames() on null
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Role.php(47): App\Libraries\KingAuth\Handlers\Role->put_role()
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\KingAuth.php(384): App\Libraries\KingAuth\Handlers\Role->set(Array, 'employee_role')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(44): App\Libraries\KingAuth\KingAuth->set_role(Array, 'employee_role')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 07:26 --> mysqli_sql_exception: Duplicate entry '9-1' for key 'PRIMARY' in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Role.php(125): CodeIgniter\Model->insert(Array)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Role.php(47): App\Libraries\KingAuth\Handlers\Role->put_role()
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\KingAuth.php(384): App\Libraries\KingAuth\Handlers\Role->set(Array, 'EmployeeRole')
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(44): App\Libraries\KingAuth\KingAuth->set_role(Array, 'EmployeeRole')
+#11 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#12 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#13 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 07:26 --> Duplicate entry '9-1' for key 'PRIMARY'
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Role.php(125): CodeIgniter\Model->insert(Array)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Role.php(47): App\Libraries\KingAuth\Handlers\Role->put_role()
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\KingAuth.php(384): App\Libraries\KingAuth\Handlers\Role->set(Array, 'EmployeeRole')
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(44): App\Libraries\KingAuth\KingAuth->set_role(Array, 'EmployeeRole')
+#11 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#12 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#13 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#15 {main}
+ALERT - 07:38 --> APPPATH/Libraries\KingAuth\Handlers\Role.php | Line: 128 
+ not 0 
+
+ERROR - 07:40 --> mysqli_sql_exception: Duplicate entry '9-2' for key 'PRIMARY' in E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Role.php(125): CodeIgniter\Model->insert(Array)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Role.php(47): App\Libraries\KingAuth\Handlers\Role->put_role()
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\KingAuth.php(384): App\Libraries\KingAuth\Handlers\Role->set(Array, 'EmployeeRole')
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(44): App\Libraries\KingAuth\KingAuth->set_role(Array, 'EmployeeRole')
+#11 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#12 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#13 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 07:40 --> Duplicate entry '9-2' for key 'PRIMARY'
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Role.php(125): CodeIgniter\Model->insert(Array)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Role.php(47): App\Libraries\KingAuth\Handlers\Role->put_role()
+#9 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\KingAuth.php(384): App\Libraries\KingAuth\Handlers\Role->set(Array, 'EmployeeRole')
+#10 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(44): App\Libraries\KingAuth\KingAuth->set_role(Array, 'EmployeeRole')
+#11 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#12 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#13 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#15 {main}
+ALERT - 07:41 --> APPPATH/Libraries\KingAuth\Handlers\Role.php | Line: 133 
+ INSERT SUCCESS 
+
+CRITICAL - 08:23 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\KingAuth.php(394): App\Libraries\KingAuth\Handlers\Role->disput('9', '3', 'EmployeeRole')
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(39): App\Libraries\KingAuth\KingAuth->disput_role('9', '3', 'EmployeeRole')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}

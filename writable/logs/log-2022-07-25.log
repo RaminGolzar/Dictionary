@@ -1,0 +1,33 @@
+CRITICAL - 06:12 --> Call to undefined method App\Libraries\KingAuth\Handlers\Entry::logout()
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Entry.php(81): App\Libraries\KingAuth\KingAuth->user_logout()
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Entry.php(61): App\Libraries\KingAuth\Handlers\Entry->sign_in('MUsers')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Entry.php(49): App\Libraries\KingAuth\Handlers\Entry->fetch_model(Array)
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\KingAuth.php(295): App\Libraries\KingAuth\Handlers\Entry->login('*', Array, Array, 'deleted_at')
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(144): App\Libraries\KingAuth\KingAuth->user_login('*', Array, Array, 'deleted_at')
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->login()
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 06:23 --> Return value of App\Libraries\KingAuth\KingAuth::user_logout() must be of the type bool, null returned
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Entry.php(81): App\Libraries\KingAuth\KingAuth->user_logout()
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Entry.php(61): App\Libraries\KingAuth\Handlers\Entry->sign_in('MUsers')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Entry.php(49): App\Libraries\KingAuth\Handlers\Entry->fetch_model(Array)
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\KingAuth.php(295): App\Libraries\KingAuth\Handlers\Entry->login('*', Array, Array, 'deleted_at')
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(144): App\Libraries\KingAuth\KingAuth->user_login('*', Array, Array, 'deleted_at')
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->login()
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 06:55 --> Return value of App\Libraries\KingAuth\KingAuth::user_logout() must be of the type bool, null returned
+#0 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Entry.php(81): App\Libraries\KingAuth\KingAuth->user_logout()
+#1 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Entry.php(61): App\Libraries\KingAuth\Handlers\Entry->sign_in('MUsers')
+#2 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\Handlers\Entry.php(49): App\Libraries\KingAuth\Handlers\Entry->fetch_model(Array)
+#3 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Libraries\KingAuth\KingAuth.php(295): App\Libraries\KingAuth\Handlers\Entry->login('*', Array, Array, 'deleted_at')
+#4 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\app\Controllers\Home.php(144): App\Libraries\KingAuth\KingAuth->user_login('*', Array, Array, 'deleted_at')
+#5 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(936): App\Controllers\Home->login()
+#6 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SoftWare\xampp 7\htdocs\my_projects\testing\ci_dictionary\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
